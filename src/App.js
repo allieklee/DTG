@@ -1,12 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import {Header} from "./components/header.tsx";
 
-function App() {
+export default function App() {
   return (
-      <h1 className="text-xl font-bold underline">
-        Hello world!
-      </h1>
+      <Header />
   );
 }
 
-export default App;
+
